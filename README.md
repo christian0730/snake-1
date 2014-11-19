@@ -9,16 +9,16 @@ Goal:
 Build an interactive Snake clone in JavaScript. If you have never played Snake, you can read about it here: http://en.wikipedia.org/wiki/Snake_(video_game)
 
 Musts:
-1.	Use JavaScript
-2.	Run on latest versions of Chrome, Safari, and FireFox
-3.	Use Canvas 2D
-4.	Use requestAnimationFrame
-5.	Support different screen pixel ratios (densities)
-6.	Use arrow keys to change direction of the Snake
-7.	Increase the length of the Snake by one block for each block it "eats"
-8.	Increase the speed of the Snake by a small percentage for each block it "eats"
-9.	When the snake "eats" a block, randomly place a new block on the board that is a certain distance from the snake's current position and the walls.
-10.	End the game if the Snake "bites its own tail" or runs into a wall
+* Use JavaScript
+* Run on latest versions of Chrome, Safari, and FireFox
+* Use Canvas 2D
+* Use requestAnimationFrame
+* Support different screen pixel ratios (densities)
+* Use arrow keys to change direction of the Snake
+* Increase the length of the Snake by one block for each block it "eats"
+* Increase the speed of the Snake by a small percentage for each block it "eats"
+* When the snake "eats" a block, randomly place a new block on the board that is a certain distance from the snake's current position and the walls.
+* End the game if the Snake "bites its own tail" or runs into a wall
 
 Shoulds:
 1.	Use underscore
