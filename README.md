@@ -21,22 +21,29 @@ Musts:
 * End the game if the Snake "bites its own tail" or runs into a wall
 
 Shoulds:
-1.	Use underscore
-2.	Keep score
-3.	Pause the game with SPACE key
-4.	Reset the game by clicking on the Canvas
-5.	Design the game using JavaScript objects and inheritance (use _.extend)
+* Use underscore
+* Keep score
+* Pause the game with SPACE key
+* Reset the game by clicking on the Canvas
+* Design the game using JavaScript objects and inheritance (use _.extend)
 
 Coulds:
-1.	Use jquery for DOM manipulation and event binding (though not really needed for this exercise)
-2.	Use requirejs for dependency injection
-3.	Deploy the game to Heroku using Node.js
-4.	Save highscores in browser localstorage
-5.	Provide different difficulty levels
-6.	Provide different board sizes
-7.	Support the fullscreen API
-8.	Write unit tests using Mocha
-9.	Surprise us with something cool
+* Use jquery for DOM manipulation and event binding (though not really needed for this exercise)
+* Use requirejs for dependency injection
+* Deploy the game to Heroku using Node.js
+* Save highscores in browser localstorage
+* Provide different difficulty levels
+* Provide different board sizes
+* Support the fullscreen API
+* Write unit tests using Mocha
+
+To run the tests. From the scripts directory:
+```sh
+mocha -u tdd test.js
+```
+
+
+* Surprise us with something cool
 
 
 Sound Credits
