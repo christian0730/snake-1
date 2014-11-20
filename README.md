@@ -48,3 +48,11 @@ mocha -u tdd test.js
 
 Sound Credits
 http://soundbible.com/407-Biting-Apple.html
+
+
+TODO
+====
+
+Should make x, y member variables in the game entities private by using closures
+For more information, see this:
+http://benalman.com/news/2010/11/immediately-invoked-function-expression/
