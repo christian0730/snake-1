@@ -5,7 +5,7 @@ Author: y2rayk
 Publisher:
 */
 define(function (require) {
-    var Game = require('game');
+    var Game = require('Game');
     var element = document.getElementById("grid_size");
     element.onclick = function() {
         console.log("Changing grid size");

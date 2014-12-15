@@ -1,4 +1,4 @@
-define(['drawingentity'], function (DrawingEntity) {
+define(['DrawingEntity'], function (DrawingEntity) {
     return _.extend({}, DrawingEntity, {
         x: 0,
         y: 0,

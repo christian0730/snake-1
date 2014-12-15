@@ -1,4 +1,4 @@
-define(['drawingentity'], function (DrawingEntity) {
+define(['DrawingEntity', 'underscore'], function (DrawingEntity, _) {
     return _.extend({}, DrawingEntity, {
 	highest_score: 0,
 
