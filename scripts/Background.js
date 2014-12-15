@@ -1,5 +1,5 @@
 // Background.js
-define(['drawingentity'], function (DrawingEntity) {
+define(['DrawingEntity'], function (DrawingEntity) {
     return _.extend({}, DrawingEntity, {
     init: function(ctx, width, height) {
 	this.ctx = ctx;

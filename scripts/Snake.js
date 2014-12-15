@@ -1,4 +1,4 @@
-define(['ctrl', 'directionenum', 'underscore', 'drawingentity'], function(Ctrl, DirectionEnum, _, DrawingEntity) {
+define(['Ctrl', 'DirectionEnum', 'underscore', 'DrawingEntity'], function(Ctrl, DirectionEnum, _, DrawingEntity) {
     console.log("Snake loaded....");
     return _.extend({}, DrawingEntity, {
 	snake_cells: [],

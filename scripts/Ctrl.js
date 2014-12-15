@@ -1,4 +1,4 @@
-define(['directionenum'], function(DirectionEnum) {
+define(['DirectionEnum'], function(DirectionEnum) {
     console.log("loading Ctrl......");
     return {
 	keyhandlers: {}, // map of keycode to functions

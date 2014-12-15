@@ -1,4 +1,4 @@
-define(['welcomescreen', 'gameoverexception', 'background', 'hud', 'ctrl', 'apple', 'gameoverscreen', 'directionenum', 'underscore', 'snake'],
+define(['WelcomeScreen', 'GameOverException', 'Background', 'Hud', 'Ctrl', 'Apple', 'Gameoverscreen', 'DirectionEnum', 'underscore', 'Snake'],
        function(WelcomeScreen, GameOverException, Background, Hud, Ctrl, Apple, GameOverScreen, DirectionEnum, _, Snake, DrawingEntity) {
     return _.extend({}, DrawingEntity, {
         // Setup configuration
@@ -69,7 +69,7 @@ define(['welcomescreen', 'gameoverexception', 'background', 'hud', 'ctrl', 'appl
 		    console.log("'SPC' hit!");
 		    that.toggle_pause();
 		});
-		//this.snake = require('snake');
+		//this.snake = require('Snake');
 		this.snake = Snake;
             }
         },
