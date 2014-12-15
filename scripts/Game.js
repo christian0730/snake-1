@@ -1,4 +1,4 @@
-define(['WelcomeScreen', 'GameOverException', 'Background', 'Hud', 'Ctrl', 'Apple', 'Gameoverscreen', 'DirectionEnum', 'underscore', 'Snake'],
+define(['WelcomeScreen', 'GameOverException', 'Background', 'Hud', 'Ctrl', 'Apple', 'GameOverScreen', 'DirectionEnum', 'underscore', 'Snake', 'DrawingEntity'],
        function(WelcomeScreen, GameOverException, Background, Hud, Ctrl, Apple, GameOverScreen, DirectionEnum, _, Snake, DrawingEntity) {
     return _.extend({}, DrawingEntity, {
         // Setup configuration
